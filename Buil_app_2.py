@@ -10,7 +10,6 @@ import streamlit.components.v1 as components
 import requests
 from io import BytesIO
 from geopy.geocoders import Nominatim
-import geopandas as gpd
 page_bg_image = """
 <style>
 [data-testid="stAppViewContainer"] {
