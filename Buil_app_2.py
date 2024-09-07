@@ -22,7 +22,7 @@ page_bg_image = """
 st.set_page_config(layout="wide")
 
 st.markdown(page_bg_image, unsafe_allow_html=True)
-file_path = 'https://github.com/Thuyduong412/App_Demo/raw/main/Trade_Map_-_DataSet_Cinnamom.xlsx'
+file_path = 'https://raw.githubusercontent.com/Thuyduong412/App-Demo/main/Trade_Map_-_DataSet_Cinnamom.xlsx'
 
 # Read the sheets from the Excel file
 import_file = pd.read_excel(file_path, sheet_name='Trade_Map_List_of_supplying')
